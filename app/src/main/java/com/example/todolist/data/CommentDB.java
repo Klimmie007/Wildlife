@@ -7,7 +7,6 @@ import com.example.todolist.data.model.BaseInsertCall;
 import com.example.todolist.data.model.Comment;
 import com.example.todolist.data.model.CommentFromDB;
 import com.example.todolist.data.model.InsertData;
-import com.example.todolist.data.model.RetrofitSingleton;
 import com.example.todolist.data.model.TemplateResult;
 
 import java.util.ArrayList;

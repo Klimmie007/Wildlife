@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lista na dziś</string>
+    <string name="app_name">Dzika przyroda</string>
     <string name="name_label">Nazwa</string>
     <string name="name_hint">Wprowadź nazwę zadania</string>
     <string name="details_label">Szczegóły</string>
@@ -9,4 +9,26 @@
     <string name="show_subtitle">Pokaż podtytuł</string>
     <string name="hide_subtitle">Ukryj podtytuł</string>
     <string name="subtitle_format">%d zadań</string>
+    <string name="login">Zaloguj się</string>
+    <string name="title_activity_login">Aktywność logowania</string>
+    <string name="prompt_username">Nazwa użytkownika</string>
+    <string name="prompt_password">Hasło</string>
+    <string name="action_sign_in">Zaloguj się</string>
+    <string name="action_register">Zarejestruj</string>
+    <string name="action_sign_in_short">Zaloguj</string>
+    <string name="welcome">"Witaj! "</string>
+    <string name="invalid_username">Nazwa użytkonika jest niepoprawna</string>
+    <string name="invalid_password">Hasło musi mieć więcej niż 5 znaków</string>
+    <string name="login_failed">"Logowanie nie powiodło się"</string>
+    <string name="register_failed">"Rejestracja nie powiodła się"</string>
+    <string name="take_photo">Zrób zdjęcie</string>
+    <string name="camera_perms_denied">Nie udzielono zezwolenia na kamerę</string>
+    <string name="title_activity_register">Aktywność rejestracji</string>
+    <string name="prompt_email">Email</string>
+    <string name="species_label">Gatunek</string>
+    <string name="location_label">Lokacja: </string>
+    <string name="button_send">Wyślij</string>
+    <string name="location_to_string">Długość: %1$f \n Szerokość: %2$f</string>
+    <string name="add_comment">Dodaj komentarz</string>
+    <string name="view_comments">Pokaż komentarze</string>
 </resources>

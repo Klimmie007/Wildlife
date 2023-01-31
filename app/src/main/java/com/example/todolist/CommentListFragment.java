@@ -77,12 +77,12 @@ public class CommentListFragment extends Fragment {
                 charCount.setText(editable.length() + "/" + maxChars);
                 if(editable.length() > maxChars)
                 {
-                    charCount.setTextColor(Color.RED);
+                    charCount.setTextColor(getResources().getColor(R.color.red));
                     sendButton.setEnabled(false);
                 }
                 else
                 {
-                    charCount.setTextColor(Color.DKGRAY);
+                    charCount.setTextColor(getResources().getColor(R.color.dark_gray));
                     sendButton.setEnabled(true);
                 }
             }

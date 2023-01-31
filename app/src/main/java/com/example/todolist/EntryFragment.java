@@ -3,9 +3,11 @@ package com.example.todolist;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -119,6 +121,20 @@ public class EntryFragment extends Fragment {
         }
         locationText = view.findViewById(R.id.locationTextComments);
         locationText.setText(getString(R.string.location_to_string, entry.Latitude, entry.Longitude));
+        locationText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String URI = "geo:" + entry.Latitude + "," + entry.Longitude + "?q=" + Uri.encode(entry.Latitude + ", " + entry.Longitude);
+                Log.d("Maps", URI);
+                Uri intentURI = Uri.parse(URI);
+                Intent intent = new Intent(Intent.ACTION_VIEW, intentURI);
+                intent.setPackage("com.google.android.apps.maps");
+                if(intent.resolveActivity(getActivity().getPackageManager()) != null)
+                {
+                    startActivity(intent);
+                }
+            }
+        });
         commentsButton = view.findViewById(R.id.comment_view_button);
         commentsButton.setOnClickListener(new View.OnClickListener() {
             @Override

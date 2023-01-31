@@ -3,7 +3,6 @@ package com.example.todolist.data;
 import android.util.Log;
 
 import com.example.todolist.data.model.BaseCall;
-import com.example.todolist.data.model.RetrofitSingleton;
 import com.example.todolist.data.model.SpeciesTag;
 import com.example.todolist.data.model.TemplateResult;
 

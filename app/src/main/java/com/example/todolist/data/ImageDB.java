@@ -2,47 +2,24 @@ package com.example.todolist.data;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.ImageFormat;
 import android.graphics.Matrix;
-import android.media.Image;
-import android.os.Build;
-import android.os.StrictMode;
-import android.util.Base64;
 import android.util.Log;
-import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 
 import com.example.todolist.data.model.BaseGetCall;
 import com.example.todolist.data.model.BaseInsertCall;
 import com.example.todolist.data.model.ImagePath;
 import com.example.todolist.data.model.InsertData;
-import com.example.todolist.data.model.OwOService;
-import com.example.todolist.data.model.RetrofitSingleton;
-import com.example.todolist.data.model.TemplateResult;
 import com.example.todolist.data.model.TemplateResultSingle;
 import com.example.todolist.data.model.findById;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.nio.Buffer;
-import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.function.BiConsumer;
-import java.util.function.Consumer;
 
-import okhttp3.OkHttpClient;
-import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
-import retrofit2.Call;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ImageDB
 {

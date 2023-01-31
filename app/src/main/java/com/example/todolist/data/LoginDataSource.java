@@ -1,13 +1,11 @@
 package com.example.todolist.data;
 
-import android.os.StrictMode;
 import android.util.Log;
 
 import com.example.todolist.data.model.BaseGetCall;
 import com.example.todolist.data.model.BaseInsertCall;
 import com.example.todolist.data.model.InsertData;
 import com.example.todolist.data.model.LoggedInUser;
-import com.example.todolist.data.model.RetrofitSingleton;
 import com.example.todolist.data.model.User;
 import com.example.todolist.data.model.UserContainer;
 
@@ -15,16 +13,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import okhttp3.OkHttpClient;
-import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.Call;
-import retrofit2.converter.gson.GsonConverterFactory;
 
-import com.example.todolist.data.model.OwOService;
-import com.example.todolist.data.model._id;
 import com.example.todolist.data.model.findById;
 
 /**

@@ -1,6 +1,8 @@
-package com.example.todolist.data.model;
+package com.example.todolist.data;
 
 import android.os.StrictMode;
+
+import com.example.todolist.data.OwOService;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

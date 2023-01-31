@@ -7,7 +7,6 @@ import com.example.todolist.data.model.BaseInsertCall;
 import com.example.todolist.data.model.Entry;
 import com.example.todolist.data.model.EntryFromDB;
 import com.example.todolist.data.model.InsertData;
-import com.example.todolist.data.model.RetrofitSingleton;
 import com.example.todolist.data.model.TemplateResult;
 
 import retrofit2.Call;
@@ -16,8 +15,6 @@ import retrofit2.Response;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
-import java.util.function.Consumer;
 
 public class EntryDB {
     private static List<Entry> entries = new ArrayList<>();

@@ -1,4 +1,17 @@
-package com.example.todolist.data.model;
+package com.example.todolist.data;
+
+import com.example.todolist.data.model.BaseCall;
+import com.example.todolist.data.model.BaseGetCall;
+import com.example.todolist.data.model.BaseInsertCall;
+import com.example.todolist.data.model.CommentFromDB;
+import com.example.todolist.data.model.EntryFromDB;
+import com.example.todolist.data.model.ImagePath;
+import com.example.todolist.data.model.InsertData;
+import com.example.todolist.data.model.SpeciesTag;
+import com.example.todolist.data.model.TemplateResult;
+import com.example.todolist.data.model.TemplateResultSingle;
+import com.example.todolist.data.model.UserContainer;
+import com.example.todolist.data.model.findById;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
